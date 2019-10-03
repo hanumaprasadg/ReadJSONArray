@@ -42,8 +42,7 @@ public class ReadJSONExample
             	System.out.println("Store :"+jo.get("Store"));
 			}
            
- 
-        } catch (FileNotFoundException e) {
+         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
